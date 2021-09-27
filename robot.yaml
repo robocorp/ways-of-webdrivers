@@ -1,8 +1,8 @@
 tasks:
-  Python-Webdriver:
-    robotTaskName: My Robot Task using Python Selenium Webdriver
+  CustomSelenium:
+    robotTaskName: Using CustomSelenium with Robot Framework Syntax
   Extended-Selenium-Library:
-    robotTaskName: My Robot Task using Extended Selenium Library
+    robotTaskName: Using Extended Selenium Library
   Python-Task:
     shell: python task.py
 

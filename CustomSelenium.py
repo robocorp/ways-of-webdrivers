@@ -31,7 +31,6 @@ class CustomSelenium:
         else:
             self.logger.warning("Using cached driver: %s" % executable_driver_path)
 
-        self.suppress_logging()
         self.driver = start("Chrome", executable_path=str(executable_driver_path), options=options)
 
     def open_url(self, url:str, screenshot:str=None):
