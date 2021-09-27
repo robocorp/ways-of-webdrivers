@@ -1,0 +1,17 @@
+tasks:
+  Python-Webdriver:
+    robotTaskName: My Robot Task using Python Selenium Webdriver
+  Extended-Selenium-Library:
+    robotTaskName: My Robot Task using Extended Selenium Library
+  Python-Task:
+    shell: python task.py
+
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
